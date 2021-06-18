@@ -41,10 +41,10 @@ string teste = "nome"
 
 ```
 
-vetores: Aceita declarações dos tipos reais, inteiro e texto
+vetor: aceita declarações dos tipos reais, inteiros e string
 
 ```
-inteirovetor[1]
+inteiro vetor[1]
 real vetor[2]
 string vetor[3]
 
@@ -65,8 +65,8 @@ soma = nota1 + nota2
 Para escrever na tela é necessário usar o comando >>escreva
 
 ```
->>escreva "sua media foi"
->>escreva media
+>>escreva ("sua media foi", media)
+>>escreva (media)
 
 ```
 
@@ -75,18 +75,29 @@ Para escrever na tela é necessário usar o comando >>escreva
 Para utilizar as operações matemáticas é necessário seguir os exemplos abaixo
 
 ```
-exponencial = 2 ^ 4
-soma  = 10 + 2
-subtracao = 2 - 3 
-divisao = a / 2 
-raiz = (22)
+>>escreva("Soma: ")
+>>escreva(a + b)
+
+>>escreva("Subtração: ")
+>>escreva(a - b)
+
+>>escreva("Multiplicação: ")
+>>escreva(a * b)
+
+>>escreva("Divisão: ")
+>>escreva(a / b)
+
+>>escreva("Exponenciação: ")
+>>escreva(a ^ b)
+
+>>escreva("Radiciação: ")
+>>escreva(raiz(a))
+
 
 ```
 # EXPRESSÕES MATEMÁTICAS E PRECEDÊNCIA
 
-Parênteses.
-Exponenciação.
-Multiplicação e divisão possui o mesmo grau de precedência.
+Parênteses, Exponenciação, Multiplicação e Divisão possui o mesmo grau de precedência.
 Soma e subtração possui o mesmo grau de precedência.
 
 ```
