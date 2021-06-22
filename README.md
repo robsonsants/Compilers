@@ -104,7 +104,7 @@ Soma e subtração possui o mesmo grau de precedência.
 TESTE = ((1+2)^(4*2)) 
 
 ```
-# ESTRUTURAS CONDICIONAIS IF, IF ELSE E OPERADORER TERNARIO
+# ESTRUTURAS CONDICIONAIS IF, IF ELSE E OPERADOR TERNARIO
 
 IF
 
